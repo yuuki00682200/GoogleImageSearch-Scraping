@@ -1,4 +1,3 @@
-#必要なモジュールをインポートする
 import requests
 import random
 import shutil
