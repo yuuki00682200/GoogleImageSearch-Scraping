@@ -8,6 +8,7 @@ import ssl
 #sslの設定
 ssl._create_default_https_context = ssl._create_unverified_context
 
+#メイン関数
 #image関数 Google画像検索にアクセスする
 def image(data):
     Res = requests.get("https://www.google.com/search?hl=jp&q=" + data + "&btnG=Google+Search&tbs=0&safe=off&tbm=isch")
